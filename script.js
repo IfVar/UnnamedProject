@@ -1,13 +1,16 @@
 /* Variables */
-    // Content Here
+const Apple = document.getElementById("Apple")
 
 /* Event Listeners */
 document.addEventListener("DOMContentLoaded", (event) => {
     // Script To Load Automatically Once Website Loads
 });
 
-/* Functions */
-    // Content Here
+OnRClick(Apple, function() {
+    alert("hi")
+  });
+
+NoRMenu(document)
 
 /* Other Scripts */
     // Content Here
