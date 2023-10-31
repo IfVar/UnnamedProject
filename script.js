@@ -8,7 +8,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 OnRClick(Apple, function() {
     alert("hi")
-  });
+});
+
+OnDClick(Apple, function(){
+    alert("Lorem")
+});
 
 NoRMenu(document)
 
